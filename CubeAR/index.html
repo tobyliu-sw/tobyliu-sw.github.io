@@ -7,7 +7,8 @@ img.main {
 }
 .main {
 	position: relative;
-	width: 960px; 
+	width: 960px;
+	height: 480px;
 	margin-left: auto;
 	margin-right: auto;
 	background-color: transparent;
@@ -23,8 +24,15 @@ img.main {
 	position: absolute;
 	top: 15;
 	right: 0;
-	width: 100%; 
+	width: 60%;
 	z-index: 1;
+}
+.video {
+	position: relative;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: transparent;
 }
 p {
 	padding: 10px;
@@ -110,6 +118,23 @@ function detectLanguage() {
 	<div class="right">
 		<img class="main" src="./iPhoneImageMain.png">
 	</div>
+</div>
+<div class="video">
+	<table>
+		<tr><td>Sample Videos</td></tr>
+		<tr>
+			<td> 1. Scanning Cube </td>
+			<td> 2. Solving Cube </td>
+		</tr>
+		<tr>
+			<td>
+				<iframe width="480" height="270" src="https://www.youtube.com/embed/xLiu3bxq2U4" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</td>
+			<td>
+				<iframe width="480" height="270" src="https://www.youtube.com/embed/ANgXZYDHoFM" frameborder="0" allow="autoplay; encrypted-media" allowfullscreen></iframe>
+			</td>
+		</tr>
+	</table>
 </div>
 </body>
 </html>
