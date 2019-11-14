@@ -15,12 +15,12 @@ body {
 }
 
 a {
-  color: #fdcc52;
+  color: #e91e63;
   transition: all .35s;
 }
 
 a:hover, a:focus {
-  color: #fcbd20;
+  color: #e91e63;
 }
 
 hr {
@@ -156,8 +156,8 @@ header.masthead {
   padding-top: 150px;
   padding-bottom: 100px;
   color: white;
-  background: url("../img/bg-pattern.png"), #7b4397;
-  background: url("../img/bg-pattern.png"), linear-gradient(to left, #7b4397, #dc2430);
+  background: url("../img/bg-pattern.png"), #FC575E;
+  background: url("../img/bg-pattern.png"), linear-gradient(to left, #FC575E, #045DE9);
 }
 
 header.masthead .header-content {
@@ -395,8 +395,8 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .bg-primary {
-  background: #fdcc52;
-  background: linear-gradient(#fdcc52, #fdc539);
+  background: #74F2CE;
+  background: linear-gradient(#7CFFCB, #74F2CE);
 }
 
 .text-primary {
@@ -428,6 +428,6 @@ footer ul li a:hover, footer ul li a:focus, footer ul li a:active, footer ul li 
 }
 
 .btn-xl {
-  font-size: 11px;
+  font-size: 15px; /* 11px; */
   padding: 15px 45px;
 }
